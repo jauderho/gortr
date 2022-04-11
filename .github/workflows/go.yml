@@ -48,7 +48,7 @@ jobs:
       run: make package-deb-gortr package-rpm-gortr
 
     - name: Upload Artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: dist
         path: dist/*
